@@ -4,9 +4,27 @@
 
 Утилита для получения анекдотов категории Б от коровы в терминале
 
+Для корректной работы требуется утилита [cowsay](https://ru.wikipedia.org/wiki/Cowsay)
+
+```bash
+# MacOS
+brew install cowsay
+
+# Ubuntu
+sudo apt-get install cowsay
+
+# Arch
+sudo pacman -S cowsay
+
+# Alpine
+apk add cowsay
+```
+
 ## Установка
 
-TODO
+```bash
+cargo build --release
+```
 
 ## Фичи
 
@@ -17,3 +35,7 @@ TODO
 - [ ] Тесты
 
 - [ ] CI/CD
+
+- [ ] Pre-commit
+
+- [ ] Оффлайн режим
